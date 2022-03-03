@@ -8,7 +8,7 @@ namespace OS
         public static void Start()
         { 
             // создаем каталог для файла
-            string path = "D:\\SomeDir";
+            string path = "D:\\File";
             DirectoryInfo dirInfo = new DirectoryInfo(path);
             if (!dirInfo.Exists)
             {
